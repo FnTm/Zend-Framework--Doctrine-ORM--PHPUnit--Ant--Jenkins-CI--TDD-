@@ -16,7 +16,7 @@ $config->setMetadataDriverImpl($driverImpl);
 $connectionOptions = array(
     'driver' => 'pdo_mysql',
     'dbname' => 'skeleton',
-    'username' => 'root'
+    'user' => 'root'
 );
 
 $em = \Doctrine\ORM\EntityManager::create($connectionOptions, $config);
